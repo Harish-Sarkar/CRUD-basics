@@ -1,0 +1,43 @@
+body{
+    font-family: sans-serif;
+    margin: 0 50px;
+}
+h1,h3{
+    color:blueviolet;
+}
+.container{
+    display: flex;
+    gap: 50px;
+}
+#posts{
+    width: 400px;
+}
+
+#posts div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.options{
+    display: flex;
+    gap: 25px;
+}
+
+i
+{
+    cursor: pointer;
+}
+i:hover{
+    color:red;
+}
+
+#msg{
+    color: red;
+}
+textarea{
+    resize: none;
+}
+button:hover{
+    background-color: red;;
+    color: black;
+}
